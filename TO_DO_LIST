@@ -1,0 +1,7 @@
+# TO DO LIST
+- Faire une maquette sur CANVA de nos idées pour le projet
+- Récupérer le script du R shinny qui permettait de collecter les données sur l'API (ajuster au besoin ce qu'on veut recup)
+- modifier ce script pour qu'il génère un csv ( sauf si on veut faire d'une autre manière) 
+- concatener ce csv avec le csv des adresses (à récupérer sur ce site en fonction de quel département on veut faire) : https://adresse.data.gouv.fr/donnees-nationales
+- Intégration du CSV dans powerBI
+- Commencer à faire le tableau de bord dans power BI avec les consignes indiqué dans le sujet.
