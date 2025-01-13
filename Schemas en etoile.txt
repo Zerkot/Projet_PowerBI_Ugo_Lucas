@@ -1,0 +1,57 @@
+1. Table centrale : Logements
+Contient les données principales et les mesures quantitatives :
+
+Clé primaire : N°DPE ou id
+Mesures :
+Coût_chauffage
+Conso_5_usages_é_finale
+Emission_GES_5_usages
+Coût_total_5_usages
+Emission_GES_chauffage
+Conso_chauffage_é_primaire
+Emission_GES_refroidissement
+2. Dimensions :
+a. Dimension : Bâtiment
+Clé : Type_bâtiment
+Attributs :
+Type_installation_chauffage
+Qualité_isolation_enveloppe
+Qualité_isolation_plancher_bas
+Qualité_isolation_murs
+b. Dimension : Localisation
+Clé : id
+Attributs :
+Coordonnée_cartographique_X_(BAN)
+Coordonnée_cartographique_Y_(BAN)
+code_postal
+code_insee
+nom_commune
+lon
+lat
+c. Dimension : Énergie
+Clé : Type_énergie_n°1
+Attributs :
+Emission_GES_5_usages_par_m²
+Emission_GES_chauffage_dépensier
+d. Dimension : DPE (Diagnostic de Performance Énergétique)
+Clé : N°DPE
+Attributs :
+Etiquette_GES
+Etiquette_DPE
+Date_réception_DPE
+N°_DPE_remplacé
+e. Dimension : Adresse
+Clé : id_fantoir
+Attributs :
+numero
+rep
+nom_voie
+nom_ld
+libelle_acheminement
+source_nom_voie
+f. Dimension : Certification
+Clé : certification_commune
+Attributs :
+cad_parcelles
+source_position
+alias
