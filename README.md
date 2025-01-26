@@ -2,7 +2,7 @@
 
 ## Description
 Ce repository contient les fichiers nécessaires à la création, l'analyse et la documentation d'un projet Power BI axé sur les données ENEDIS. L'objectif est d'optimiser les performances des rapports, d'exploiter un modèle de données étoilé et de fournir une documentation complète (technique et fonctionnelle).
-Le tableau de bord est disponible en ligne : https://app.powerbi.com/groups/me/reports/d580f98c-bd7e-434e-8a61-e0b2e5f5029b/6d8c0fb3acdb58be7cc1?experience=power-bi
+Le tableau de bord est disponible en ligne : https://app.powerbi.com/groups/me/reports/d580f98c-bd7e-434e-8a61-e0b2e5f5029b/6d8c0fb3acdb58be7cc1?experience=power-bi Veuiller changer de navigateur si le lien ne marche pas.
 ---
 
 ## Contenu du repository
